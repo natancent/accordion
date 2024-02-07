@@ -1,0 +1,83 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: hsl(275, 100%, 97%);
+    margin: 0;
+    padding: 0;
+    background-image: url('./assets/images/background-pattern-desktop.svg');
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-size: 1200px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    /* Adding shadow */
+}
+
+.faqs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.star {
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    color: hsl(228, 45%, 44%);
+}
+
+.snipe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 18px;
+    color: hsl(292, 16%, 49%);
+}
+
+p {
+    font-size: 16px;
+    color: hsl(292, 16%, 49%);
+    display: none;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.attribution {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}
